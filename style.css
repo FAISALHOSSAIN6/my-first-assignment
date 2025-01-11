@@ -15,6 +15,7 @@
 .all-box-description {
     font-size: 13px;
     color: rgba(14, 14, 14, 0.7);
+    /* text-align: initial; */
 
 }
 
@@ -208,6 +209,7 @@ body {
     padding: 0px 68px;
     margin: 25px 0px;
     color: rgba(14, 14, 14, 0.7);
+    font-size: 13px;
 }
 
 .donate-box {
@@ -226,9 +228,92 @@ body {
     margin-bottom: 35px;
 }
 
-input {
+
+/* challenges section style */
+.dr-younus-container {
+    margin-top: 50px;
+    padding: 38px 38px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    background-image: url('assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 4% 10%;
+
+
+}
+
+.younus-content {}
+
+.younus-description {
+    color: rgba(14, 14, 14, 0.7);
+    margin: 0px 0px 15px 0px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.younus-title {
+    color: #0E0E0E;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
     /* width: 70%; */
     padding: 15px 300px;
     border: none;
 
+}
+
+/* naewsletter style */
+.newsletter-container {
+    margin: 50px 160px;
+    background-color: #C6E4D6;
+    border-radius: 20px;
+}
+
+.newsletter-conent {
+    padding: 60px 100px;
+    text-align: center;
+}
+
+/* .newsletter-heading-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} */
+.newsletter-title {
+    color: #0E0E0E;
+    margin-bottom: 20px;
+}
+
+.newsletter-description {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 13px;
+    padding: 0px 64px;
+    margin-bottom: 25px;
+
+}
+
+
+.newsletter-input {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.newsletter-input input[type="email"] {
+    height: 35px;
+    width: 550px;
+    padding-left: 40px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+}
+
+.sub-btn {
+    padding: 9px 20px;
+    color: #FFFFFF;
+    background-color: #006A50;
+    border: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
