@@ -242,7 +242,7 @@ body {
 
 }
 
-.younus-content {}
+
 
 .younus-description {
     color: rgba(14, 14, 14, 0.7);
@@ -316,4 +316,35 @@ input[type="number"] {
     border: none;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+}
+
+/* hover style */
+.price:hover{
+   color: #FFFFFF;
+    background-image: linear-gradient(to right,#023047,#219ebc);
+}
+
+button:hover{
+    color: #FFFFFF;
+   background-image: linear-gradient(to right,#023047,#219ebc);
+}
+
+/* footer style */
+footer{
+    text-align: center;
+    background-color: #FFFFFF;
+}
+.footer-title{
+    color: #0E0E0E;
+   padding: 25px 0px;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 25px 0px;
+}
+ul li{
+   list-style: none;
 }
